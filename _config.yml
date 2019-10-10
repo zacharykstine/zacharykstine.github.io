@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zachary K. Stine"
   avatar           : "ZachStine_london.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "PhD candidate in Computer and Information Science"
+  location         : "Little Rock, AR"
+  employer         : 
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?user=7r66S0YAAAAJ&hl=en"
+  email            : zkstine@ualr.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
