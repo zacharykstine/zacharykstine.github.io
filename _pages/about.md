@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Computer and Information Sciences program at the University of Arkansas at Little Rock. My research interests all broadly relate to the computational study of social and cultural systems. I received a BA in religious studies from the University of Central Arkansas in 2006 and spent some time working office jobs (mostly as a programmer) before becoming a full-time doctoral student and graduate research assistant in Fall 2017. I am part of the [COSMOS](http://cosmos.ualr.edu/) lab at UA Little Rock, led by Dr. Nitin Agarwal. My current CV is available [here](http://zacharykstine.github.io/files/20190404_cv.pdf).
+I am a PhD student in the Computer and Information Sciences program at the University of Arkansas at Little Rock. My research interests all broadly relate to the computational study of social and cultural systems. I received a BA in religious studies from the University of Central Arkansas in 2006 and spent some time working office jobs (mostly as a programmer) before becoming a full-time doctoral student and graduate research assistant in Fall 2017. I am part of the [COSMOS](http://cosmos.ualr.edu/) lab at UA Little Rock, led by Dr. Nitin Agarwal. My current CV is available [here](http://zacharykstine.github.io/files/20191210_cv.pdf).
 
 Please feel free to contact me via [email](mailto:zkstine@ualr.edu) or follow me on [twitter](http://twitter.com/zacharykstine).
 
