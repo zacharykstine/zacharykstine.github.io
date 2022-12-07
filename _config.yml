@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zachary K. Stine"
   avatar           : "stine_profile.jpg"
-  bio              : "Assistant Professor \nDept of Comp Sci & Engr \nUCA"
+  bio              : "Assistant Professor<br>Dept of Comp Sci & Engr<br>UCA"
   location         : "Arkansas, USA"
   employer         : 
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
