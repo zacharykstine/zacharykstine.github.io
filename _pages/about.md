@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I received my PhD in 2021 from the Computer and Information Sciences program at the University of Arkansas at Little Rock and am currently a Postdoctoral Fellow. My research interests all broadly relate to the computational study of social and cultural systems. My current focus is on using computational methods to conduct comparative analyses between discourses that are marked by distinctive cultural lexicons in such a way identifies their resemblances and dissimilarities beneath the surface of these discourse markers. I received a BA in religious studies from the University of Central Arkansas in 2006 and spent some time working office jobs (mostly as a programmer) before becoming a full-time doctoral student and graduate research assistant in Fall 2017. I am part of the [COSMOS](http://cosmos.ualr.edu/) lab at UA Little Rock, led by Dr. Nitin Agarwal. My current CV is available [here](http://zacharykstine.github.io/files/20210317_cv.pdf).
+Zachary Stine is an assistant professor in the [Department of Computer Science and Engineering](https://uca.edu/cse/) at the [University of Central Arkansas](https://uca.edu). He holds a PhD from the University of Arkansas at Little Rock where he was also a Postdoctoral Fellow prior to joining UCA. He received a BA in [Religious Studies](https://uca.edu/philosophy/programs/religious-studies/) from UCA. His research is concerned with the use of computational methods to study various social and cultural phenomena at large scales.
 
-Please feel free to contact me via [email](mailto:zkstine@ualr.edu) or follow me on [twitter](http://twitter.com/zacharykstine).
+**Teaching**<br>
+CSCI 3385/5385/6397: Artificial Intelligence<br>
+CSCI 4371/5371/6397: Machine Learning<br>
 
+[CV](http://zacharykstine.github.io/files/20210317_cv.pdf)
