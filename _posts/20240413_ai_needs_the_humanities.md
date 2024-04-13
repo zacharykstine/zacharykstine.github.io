@@ -26,6 +26,13 @@ I recently started reading Helen De Cruz's new book, *Wonderstruck*. I can't rec
 
 I want to use De Cruz and Nguyen as stand-ins for some of the ideas they express. Specifically, De Cruz's argument that wonder and awe are epistemic in nature, that they motivate us to accommodate the unknown by attempting to articulate what is currently inarticulable. At the same time, Nguyen has a lot to say in defense of what is not transparent, not clear, not articulable, and I think that fits in quite nicely here. Along this line, he also has a lot to say about why values are often lost when we mistake convenient, consistent proxies for them. There's a tie-in here with Gödel: fully and unambiguously articlating our values dooms them to only say things within the system, making our values incapable of evaluating the ground on which the system rests. Being able to unambiguously and completely define a problem is to be quite a long ways toward its solution. This is a lesson that much of computing's brief history has given us time and again, and it finds another beautiful articulation in AI (if you can hold the full game tree in memory, the algorithm for perfect play is beauitfully simple and elegant, and true for all deterministic games). Of course, the idea isn't unique to computer science. [Insert john dewey quote about stating problems and solving them here].
 
+Here's a summary of relevant points:
+
+-
+-
+-
+-
+
 ## Society is an AI
 [* add that quote from Peli Grietzer about economic systems being algorithms with misaligned values *]
 
@@ -33,5 +40,5 @@ I want to use De Cruz and Nguyen as stand-ins for some of the ideas they express
 ## Humanities as societal dreaming, therapy, 
 [point from Why We Sleep about the important role played by dreams]
 
-[point from ACT stuff about the therapeutic value of letting our values guide our lives; almost an independent summary 
+[point from ACT stuff about the therapeutic value of letting our values guide our lives; almost an independent discovery of MEU]
 
