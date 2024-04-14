@@ -38,14 +38,25 @@ The thing that most bothers me about the discourse around AI is that its terms m
 ### A model of optimal decision-making
 [Note that this part is kind of the first big punch of the argument, that optimal decision-making requires the interrogratoin, interpretatoin, and clarification of values. May not want to bury it too far. Part of the effectiveness of this piece is the convenienve with which people can obsorb its message].
     
-One thing that I find beautiful about AI is that it represents attempts at formalizing notions of agency and meaning. In the case of agency, it gives us a precise way of talking about agency in general, agnostic of any particular scale or location of agency. It says that, agents are things that exist in some environment, which is has a particular way of working according to some transition model which may be of any variety or complexity (but the agent-environment distinction is basically superfluous in these formalizations). For this agent to work well, to achieve whatever its goals may be, to progress, it must decide on what actions to take, how to invoke its agency upon the environment. The state of the environment, really of the problem, changes and how it changes is in part bound up in the action taken by the agent (though, in highly complex problems, the state may change in some ways that are independent of the agent,; e.g., a self-driving car agent's problem state changes in response to where the agent moves the car, but also as a consequence of other environmental variables (which function simply as other agents). 
+One thing that I find beautiful about AI is that it represents attempts at formalizing notions of agency and meaning. In the case of agency, it gives us a precise way of talking about agency in general, agnostic of any particular scale or location of agency. It says that, agents are things that exist in some environment, which is has a particular way of working according to some transition model which may be of any variety or complexity (but the agent-environment distinction is basically superfluous in these formalizations). For this agent to work well, to achieve whatever its goals may be, to progress, it must decide on what actions to take, how to invoke its agency upon the environment. The state of the environment, really of the problem, changes and how it changes is in part bound up in the action taken by the agent (though, in highly complex problems, the state may change in some ways that are independent of the agent,; e.g., a self-driving car agent's problem state changes in response to where the agent moves the car, but also as a consequence of other environmental variables (which function simply as other agents)). Note that to define the environment is to also define the problem faced by an agent, just like Nguyen might say that designing a game is to design by invocation a particular range and timbre of agency, and so we might as well just be clear and dispense with the distinction: the agent exists within an environment-problem, and since the agent is connected by cyclical influence with the environment-problem, it can be viewed as a single system, which I also think is a quite beautiful metaphor of the notion that everything is connected.
 
-## Society is an AI
+This is a very broad way of stating what a transition model represents, in the form of a conditional probability:
+[need to put into tex layout before publishing]: P(new_state | old_state, action_taken)    [eq. 1]
+
+This probability distribution tells us how likely any possible state of the problem-environment will be as a consequence of two influences: the state of the past, and the action taken by the agent in the state of the past. Note that the statement of such a model does not suppose it must be specifiable in any particular, time-invariant or context-invariant way. All this statement gives us is a statement of how the present is the effect of the past and what was done in the past. In simplest illustrations, the transition model is often unchanging: rather than have P(new_state | old_state, action_taken)_T=1, P(new_state | old_state, action_taken)_T=2, ... P(new_state | old_state, action_taken)_T=t, ... (let's optimistically not put a cap on this), we can instead just have a time-invariant P(new_state | old_state, action_taken) without any possibility of the game mechanics themselves, changing.
+
+Here's a really simple example of a specified environment-problem-agent in the form of transition model:
+
+You, the agent,
+
+It's tempting to assume that optimal decision-making ought to require nothing else, that knowing how the world works, how to best describe the future, is sufficient for acting rationally. AI's success is predicated on this being untrue. Instead, another equally ingredient, equally critical, is needed: the evaluation of possible futures, expressing the agent's desires for different realities, states of the problem-environment, in the form of a utility function. At each agential juncture, dictated by the specification of the problem-environment-agent,  
+
+## Society as an AI
 [* add that quote from Peli Grietzer about economic systems being algorithms with misaligned values *]
 
 ## An example of all the disparate things that come into my particular scientific trajectory (or does this just sound really self-centered actually?)
-[Actually, maybe just make this integrated into my explanation of optimal decision-making--showing but not telling.    
-A simple example: finding a new level of pedagogical effectiveness in explaining 
+
+A simple example: finding a new level of pedagogical effectiveness in explaining [Actually, maybe just make this integrated into my explanation of optimal decision-making--showing but not telling.    ]
 
 ## Humanities as societal dreaming, therapy, 
 [point from Why We Sleep about the important role played by dreams]
