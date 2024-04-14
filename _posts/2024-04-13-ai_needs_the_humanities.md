@@ -7,7 +7,9 @@ date: 2024-04-13
 zachary k stine  
 posted: 2024-04-13    
 updated:  
-[add a pdf link when finished]        
+[add a pdf link when finished]      
+
+# Consider making this a part 1 post: Maximum expected utility and evaluation
 # AI Needs the Humanities
         
 Earlier in the year, I gave a presentation with this title at a local bioinformatics conference. The session was on AI and ethics. My basic point was that AI makes it clear that it is in humanity's best interests to support the kind of knowledge-production and skills training which happens to be done in a large-scale, efficient manner through the so-called humanities. The discourse around the broader values of humanities programs relative to their economic or scientific value, which by their nature tend to turn such broader values into measurable qualities, has always struck me as fraught. The bad takes are endless and it's honestly just kind of hard to watch remarkable scholars have to endlessly justify their existence. Part of the problem is that one's ability to appreciate the hard-to-articulate value of such skills depends on having gained exactly those skills. It's not surprising that there are people who see something like a scam in all this; certainly not something worth expending our limited resources on. *What are we getting out of all this navel-gazing? What have scholars of Greek myths, of classical Chinese thought, of games, etc. ever done that's put food on my table?*
@@ -71,10 +73,43 @@ Since, as far as you know, there is no discernible relationship between yesterda
 `P(no_ice_cream | wendys) = 0.1`  
 `P(mcdonalds_ice_cream | wendys) = 0.0`  
 
-It's tempting to assume that optimal decision-making ought to require nothing else, that knowing how the world works, how to best describe the future, is sufficient for acting rationally. AI's success is predicated on this being untrue. Instead, another equally ingredient, equally critical, is needed: the evaluation of possible futures, expressing the agent's desires for different realities, states of the problem-environment, in the form of a utility function. In other words, the agent-environment-problem system cannot provide us with any notion of correct action unless we determine how much we value the three possible states. To act optimally necessitates have clarity around my values. 
+It's tempting to assume that optimal decision-making ought to require nothing else, that knowing how the world works, how to best describe the future, is sufficient for acting rationally. AI's success is predicated on this being untrue. Instead, another equally ingredient, equally critical, is needed: the evaluation of possible futures, expressing the agent's desires for different realities, states of the problem-environment, in the form of a utility function. In other words, the agent-environment-problem system cannot provide us with any notion of correct action unless we determine how much we value the three possible states. To act optimally necessitates having clarity around my values. 
 
-Suppose then, that you interrogate, reflect on, or generally clarify your values and come to the following realization on this particular day, prior to acting: you really do not like going without an ice cream and would much prefer to have an ice cream from either McDonald's or Wendy's. But on further reflection, you will realize that, if you had to pick one over the other, you have a slightly higher preference for McDonald's. To fill 
+Suppose then, that you interrogate, reflect on, or generally clarify your values and come to the following realization on this particular day, prior to acting: you really do not like going without an ice cream and would much prefer to have an ice cream from either McDonald's or Wendy's. But on further reflection, you will realize that, if you had to pick one over the other, you have a slightly higher preference for McDonald's. If we're going to use this model of optimal decision-making, we will need to fill in the utility function U(s) for each possible state. Here's one possibility:  
+`U(mcdonalds_ice_cream) = 10`  
+`U(wendys_ice_cream) = 7`  
+`U(no_ice_cream) = 0`  
+  
+Only now do we have the required ingredients for making a reasonable choice about which action to take, since we can now fill in all the blanks in eq. 1. The $arg max$ bit says we need to loop through each action, calculate the expected utility of taking an action, and returning the action which results in the maximum expected utility. Argmax is kind of like max except that, instead of returning the numerical value, it returns the variable associated with that numerical value, here, actions. 
 
+`argmax{expected_utility(mcdonalds), expected_utility(wendys)`  
+where  
+`expected_utility(mcdonalds) = [P(mcdonalds_ice_cream | mcdonalds) * U(mcdonalds_ice_cream)] + [P(no_ice_cream | mcdonalds) * U(no_ice_cream)] + [P(wendys_ice_cream | mcdonalds) * U(wendys_ice_cream)]`.  
+Filling in the blanks, we get that  
+`expected_utility(mcdonalds) = (0.7 * 10) + (0.3 * 0) + (0.0 * 7) = 7`  
+
+One way of interpreting what the 7 means here, is that it is the proportion of utility we can expect to receive on average. But more on that in a bit. Now let's see how the expected utility of the `mcdonalds` action compares with that of `wendys`:  
+`expected_utility(wendys) = [P(wendys_ice_cream | wendys) * U(wendys_ice_cream)] + [P(no_ice_cream | wendys) * U(no_ice_cream)] + [P(mcdonalds_ice_cream | wendys) * U(mcdonalds_ice_cream)]`  
+`                         = (0.9 * 7) + (0.1 * 0) + (0.0 * 10)` 
+`                         = 6.3`  
+
+Therefore, `argmax{expected_utility(mcdonalds), expected_utility(wendys)} == mcdonalds`. This tells us that, given the semantics of our values, the relationships between their numerical representations, the optimal action to take is to go to McDonald's today, despite that it carries a greater risk of winding up without ice cream. The goodness of eating McDonald's ice cream, for you, is so good, that it's worth it to try. 
+  
+If you now start to choose the `mcdonalds` every day, as a result of this insight, and if the transition model continues to be accurate, then over the next 100 days that you go to McDonald's, you end up with ice cream on 70 of those days, but without any on the other 30. Another way to look at it is that you have obtained 70(10) units of ice cream goodness. Over these 100 days, your average ice cream goodness comes out to `(70*10)/100` which is 7. This is what maximum expected utility *really* tells us: that if we repeat the choice in a consistent agent-environment-problem, our average utility will converge on the expected utility over time.  
+
+But let's say your utility function is dynamic, and that, as you eat the same kind of ice cream over and over, you start to get a little burned out on it. One day, you decide to revisit your values and you find that your utility function needs updating. You no longer derive as much pleasure from McDonald's ice cream and ice cream from Wendy's is starting to sound even better. 
+
+mcdonalds = 0.7 * 20 = 14
+wendys = 0.9 * 16 = 14.4
+
+Note that even though we still have a slight preference for McDonalds in this scheme, the semantics of these values cause wendys to rise as the more attractive choice. 
+
+```
+for action in {mcdonalds, wendys}:
+    expected_utility_of_action = 
+    for outcome in {mcdonalds_ice_cream, wendys_ice_cream, no_ice_cream}:
+        expected_utility = expected_utility + [P(    
+```
 ## Society as an AI
 [* add that quote from Peli Grietzer about economic systems being algorithms with misaligned values *]
 
