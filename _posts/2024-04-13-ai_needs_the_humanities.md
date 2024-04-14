@@ -35,12 +35,17 @@ Here's a summary of relevant points:
 ## The beauty of AI
 The thing that most bothers me about the discourse around AI is that its terms make it hard to see what is beautiful about AI. This is due to the fact that the discourse is always about what AI means for things external to AI, namely, us. This is unfortunate, but I don't mean to suggest that it's unnecessary. Given the myriad ways in which AI is being misguidedly used has a direct effect on people's lives and so the debate is necessary while also being unfortunate. Setting all that aside for the moment, I'd like to share a few ideas from AI that I happen to find beautiful.
 
-### Optimal decision-making
-
+### A model of optimal decision-making
+[Note that this part is kind of the first big punch of the argument, that optimal decision-making requires the interrogratoin, interpretatoin, and clarification of values. May not want to bury it too far. Part of the effectiveness of this piece is the convenienve with which people can obsorb its message].
+    
+One thing that I find beautiful about AI is that it represents attempts at formalizing notions of agency and meaning. In the case of agency, it gives us a precise way of talking about agency in general, agnostic of any particular scale or location of agency. It says that, agents are things that exist in some environment, which is has a particular way of working according to some transition model which may be of any variety or complexity (but the agent-environment distinction is basically superfluous in these formalizations). For this agent to work well, to achieve whatever its goals may be, to progress, it must decide on what actions to take, how to invoke its agency upon the environment. The state of the environment, really of the problem, changes and how it changes is in part bound up in the action taken by the agent (though, in highly complex problems, the state may change in some ways that are independent of the agent,; e.g., a self-driving car agent's problem state changes in response to where the agent moves the car, but also as a consequence of other environmental variables (which function simply as other agents). 
 
 ## Society is an AI
 [* add that quote from Peli Grietzer about economic systems being algorithms with misaligned values *]
 
+## An example of all the disparate things that come into my particular scientific trajectory (or does this just sound really self-centered actually?)
+[Actually, maybe just make this integrated into my explanation of optimal decision-making--showing but not telling.    
+A simple example: finding a new level of pedagogical effectiveness in explaining 
 
 ## Humanities as societal dreaming, therapy, 
 [point from Why We Sleep about the important role played by dreams]
