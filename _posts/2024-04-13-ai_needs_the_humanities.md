@@ -5,7 +5,7 @@ date: 2024-04-13
 # permalink: /posts/2012/08/blog-post-4/
 ---
 zachary k stine  
-started: 2024-04-13    
+posted: 2024-04-13    
 updated:  
 [add a pdf link when finished]        
 # AI Needs the Humanities
@@ -32,6 +32,11 @@ Here's a summary of relevant points:
 -
 -
 -
+## The beauty of AI
+The thing that most bothers me about the discourse around AI is that its terms make it hard to see what is beautiful about AI. This is due to the fact that the discourse is always about what AI means for things external to AI, namely, us. This is unfortunate, but I don't mean to suggest that it's unnecessary. Given the myriad ways in which AI is being misguidedly used has a direct effect on people's lives and so the debate is necessary while also being unfortunate. Setting all that aside for the moment, I'd like to share a few ideas from AI that I happen to find beautiful.
+
+### Optimal decision-making
+
 
 ## Society is an AI
 [* add that quote from Peli Grietzer about economic systems being algorithms with misaligned values *]
