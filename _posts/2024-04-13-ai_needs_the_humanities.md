@@ -12,7 +12,7 @@ updated:
 # Consider making this a part 1 post and update it each week with the next part. Or just finish the whole thing over a week and post it all at once i guess.
      
 # AI Needs the Humanities
-
+## Primary argument: AI tells us that the ability to navigate an uncertain environment is to develop good models of how the environment works, to have evaluation functions that align with what we care about, and to encourage exploration beyond what is quanitfiably useful. Right now, we are collectively losing one of our most powerful engines of progress in our ability to 1) understand how the world works (transition models) and 2) clarify and interrogate values (ie, evaluation and exploration), which is the broad liberal arts education. This is true for all fields (eg, in computer sci, the shift to become a job training program vs science training), but this disaster is, right now, particularly dire for the humanities (but also some social sciences, mathematics outside of clear business uses, etc.).
 # Primary points:
   
 # 1. Hook and framing (which *could* be totally distinct from motivation, which could better function as a nice conclusion capped off with a motivating call to action (but avoid being overly specific with actions to avoid coming across as preachy
@@ -90,14 +90,15 @@ If you now start to choose the `mcdonalds` every day, as a result of this insigh
 
 But let's say your utility function is dynamic, and that, as you eat the same kind of ice cream over and over, you start to get a little burned out on it. One day, you decide to revisit your values and you find that your utility function needs updating. You no longer derive as much pleasure from McDonald's ice cream and ice cream from Wendy's is starting to sound even better. 
 
-mcdonalds = 0.7 * 20 = 14
-wendys = 0.9 * 16 = 14.4
+[The following is just one possible way of re-describing the values, but could simply lessen McDonald's to be something like 8 (-> 5.6) and wendys to be 7 still (-> 6.3)]:
+mcdonalds = 0.7 * 8 = 5.6
+wendys = 0.9 * 7 = 6.3
 
-Note that even though we still have a slight preference for McDonalds in this scheme, the semantics of these values cause wendys to rise as the more attractive choice. 
+Note that even though we still have a slight preference for McDonalds in this scheme, the pragmatic meaning of the values cause wendys to rise as the more attractive choice. 
 
 #### a. Maximum expected utility and ice cream [check Russell Norvig for earliest citation of MEU in this form]
 #### b. Utility (one operationalization of values) is defined as part of the system's specification (subject to Godel's incompleteness as a set up to Nguyen on the inarcticulable): Where do rewards come from? They are part of the system's specification, just like the transition model, and therefore unassailable from within the system. This will set up Nguyen's defense of the inarticulable as well as wonder and awe later on. Also, perhaps the use of features and how that can go wrong: assigning large weights to overly gameable features such as GPA (resulting in high utility estimations but low rewards received due to optimizing for the grade rather than for the learning) or publication count (see Smaldino on the selection of bad science), though maybe rather than features, these are just really bad proxies to use partly because of the way they reduce uncertainty and seduce us with transparency a la Nguyen).
-#### b. Exploration (another way values are operationalized) pulls agents to learn more, to avoid a feedback loop of self-fulfilling prophecy. (For our agent, the optimistic reward functions in a similar way to De Cruz's account of wonder/awe, by pulling the agent to perceive the call of the unknown and to have the motivation to answer it; but maybe don't develop it too much just yet, just plant a seed so that there's no massive confusion when going into more later on)
+#### b. Exploration (another way values are operationalized) pulls agents to learn more, to avoid a feedback loop of self-fulfilling prophecy. (For our agent, the optimistic reward functions in a similar way to De Cruz's account of wonder/awe, by pulling the agent to perceive the call of the unknown and to have the motivation to answer it; but maybe don't develop it too much just yet, just plant a seed so that there's no massive confusion when going into more later on) (Consider including the bit from De Cruz about the caribou-hunting tribe's ritual)
   
 ### 3. Society is an AI
 #### a. It's kind of laughable to worry about building an AI that has armageddon-levels of potential destructive force alongside divine potential for salvation. That's because WE'VE ALREADY BUILT SUCH A THING: SOCIETY [seinfeld pic with george "we're living in a soceity" but cross out society and replace with AI
